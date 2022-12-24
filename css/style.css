@@ -116,6 +116,60 @@
         left: 77px;
     }
     .container img{
+        width: 423.83px;
+        height: 362px;
+        position: absolute;
+        top: 89px;
+        left: 200px;
+    }
+
+    .container h1{
+        width: 586px;
+    height: 190px;
+    position: absolute;
+    top: 490px;
+    left: 81px;
+    right: 119px;
+    font-size: 64px;
+    line-height: 94.78px;
+        
+    }
+    .container .text p{
+        width: 380px;
+        height: 108px;
+        position: absolute;
+        top: 695px;
+        left: 85px;
+        font-size: 24px;
+        line-height: 35.54px;
+    }
+    .container .text .btn{
+        position: absolute;
+        top: 848px;
+        left: 87px;
+    }
+    .container .text .end{
+        position: absolute;
+        top: 1039px;
+        left: 224px;
+    }
+}
+@media screen and (min-width:992px) {
+    .container{
+        min-width: 960px;
+    }
+ 
+}
+@media screen and (min-width:1200px) {
+    .container{
+        min-width: 1200px;
+    }
+    .container p{
+        position: absolute;
+        top: 40px;
+        left: 77px;
+    }
+    .container img{
         width: 539.22px;
         height: 447.43px;
         position: absolute;
@@ -152,16 +206,5 @@
         position: absolute;
         top: 1039px;
         left: 577px;
-    }
-}
-@media screen and (min-width:992px) {
-    .container{
-        min-width: 960px;
-    }
- 
-}
-@media screen and (min-width:1200px) {
-    .container{
-        min-width: 1200px;
     }
 }
